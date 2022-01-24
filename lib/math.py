@@ -1,16 +1,14 @@
-def star():
-    x = 1
-    y = 5
-    i = x
+def star(star_count):
+    i = 1
     print("Function star execution:")
 
 
-    while i <= y:
+    while i <= star_count:
         print("*"*i)
         i += 1
     else:
         print("it is done!")
-        print("x=",x," y=",y, " i=",i)
+        print("start_count =",star_count, " i=",i)
 
 def triangle(row):
     print("Function triangle begins:")

@@ -14,8 +14,8 @@ print(x)
 x = "I love python!"
 print(x)
 
-star()
+star(3)
 
-result = triangle(6)
+result = triangle(4)
 print("Function triangle result is ", result)
 
