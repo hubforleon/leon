@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # 用于注释的表示符号
 
-from tkinter.messagebox import showinfo
+# from tkinter.messagebox import showinfo
 from lib.math import star
 from lib.math import triangle
 from lib.logy import compare
@@ -28,6 +28,8 @@ print("------------------------")
 # result = addmore(1,45,19,18,25,93)
 # print("the result is {}".format(result))
 showmore(na = "tony",ag=18, sex="M")
+showdog()
+showdog_property()
 
 
 # PI=3.1415926
