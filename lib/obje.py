@@ -30,9 +30,9 @@ class Dog:
         print("{} is speaking, {}, bites {}".format(self.name, speak,self.bite))
         
     @classmethod
-    # cls代表当前类的类型
+    # cls代表无需实例化的方法的类型
     def calculate_bites(cls,times):
-        print("self.bite is ",cls.bite)
+        print("cls.bite is ",cls.bite)
         return cls.bite * times
 
 class BlackDog(Dog):
@@ -70,10 +70,10 @@ def showdog():
     Hisdog = Dog("hua-hua",5)
     na = str(mydog.name)
     ag = int(mydog.age)
-    # print("my dog is {str(mydog.name)}, it has {mydog.age} years old")
+
     print("my dog is %s" %na)
     print("it is %d years old" %ag)
-    # print("my dog is %s. it is %d years old." %(na,ag))
+    print("my dog is %s. it is %d years old." %(na,ag))
     mydog.run()
     # mydog.speak("miao, miao, miao!")
     # mydog.speak("miao, miao, miao!")
@@ -96,3 +96,4 @@ def showdog():
     # print("x= mydog.calculate_bites(3) = {}".format(y))
     # z = Hisdog.calculate_bites(4)
     # print("x= Hisdog.calculate_bites(4) = {}".format(z))
+showdog()
